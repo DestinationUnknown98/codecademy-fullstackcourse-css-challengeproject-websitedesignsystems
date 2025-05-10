@@ -1,15 +1,160 @@
 * {
-
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body {
-
+a:hover {
+    cursor: pointer;
 }
 
-main {
+.tagesschrift-regular {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
 
+.underdog-regular {
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.saira {
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Header Styling*/
+
+header {
+    padding: 0px 0px 20px 0px;
+    text-align: center;
 }
 
-footer {
-    
+header .header {
+    padding: 70px 0px;
+    background: blue;
+    color: white;
+}
+
+header .header h1 {
+    padding: 30px 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+header nav {
+    padding: 30px 0px;
+    background-color: blue;
+    border-top: 2px solid white;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav li a {
+    text-decoration: none;
+    padding: 30px;
+    font-size: 23px;
+    color: white;
+}
+
+header nav li a:hover {
+    background-color: white;
+    color: blue;
+}
+
+/*All section styling*/
+
+.topic {
+    border: solid 1px blue;
+    padding: 50px;
+    margin: 30px 10%;
+}
+
+.topic h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0px 0px 70px;
+}
+
+.topic h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 0px 30px;
+}
+
+
+/*Color section styling*/
+
+.colorblock {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+    margin: 10px;
+}
+
+.colorname {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.colorcode {
+    font-size: 20px;
+}
+
+#blue {
+    background-color: #2d5dcc;
+    color: white;
+}
+
+#pink {
+    background-color: #d957d9;
+}
+
+#mintgreen {
+    background-color: #4fe0b0;
+}
+
+#beige {
+    background-color: #efd9ca;
+}
+
+
+/*Font section styling*/
+
+#fonts p {
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+}
+ 
+#tagesschrift h3,
+#tagesschrift p {
+    font-family: "tagesschrift", sans-serif;
+}
+
+#underdog h3,
+#underdog p {
+    font-family: "Underdog", sans-serif;
+}
+
+#saira h3,
+#saira p {
+    font-family: "Saira", sans-serif;
+}
+
+#fonts .bold {
+    font-weight: bold;
+}
+
+#fonts .italic {
+    font-style: italic;
 }
