@@ -158,3 +158,94 @@ header nav li a:hover {
 #fonts .italic {
     font-style: italic;
 }
+
+.main {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 0px 0px 15px;
+}
+
+.sub {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    padding: 0px 0px 15px;
+}
+
+.basictext {
+    font-weight: 400;
+    font-size: 14px;
+    Font-family: "Poppins", sans-serif;
+    padding: 0px 0px 15px;
+}
+
+#tstyles div {
+    margin: 40px auto;
+}
+
+#styles li {
+    font-weight: 400;
+    font-size: 14px;
+    Font-family: "Poppins", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.default,
+.realistic,
+.flat {
+    padding: 40px 60px;
+}
+
+.realistic {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid blue;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.realistic:active {
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+}
+
+.realistic:hover {
+    font-size: 25px;
+}
+
+.flat {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid blue;
+}
+
+.flat:hover {
+    color: blue;
+    background-color: whitesmoke;
+}
+
+footer {
+    height: 200px;
+    background-color: blue;
+    color: white;
+}
+
+footer h3 {
+    text-align: center;
+    padding: 50px 0px 20px;
+}
+
+footer p {
+    text-align: center;
+}
